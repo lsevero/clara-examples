@@ -1,5 +1,5 @@
 (ns clara.examples
-  (require [clara.examples.shopping :as shopping]
+  (:require [clara.examples.shopping :as shopping]
            [clara.examples.validation :as validation]
            [clara.examples.sensors :as sensors]
            [clara.examples.java.shopping :as jshopping]
