@@ -44,6 +44,7 @@
   []
   [AlwaysOverZeroLocation (= ?loc location)])
 
+(comment (run-examples))
 (defn run-examples []
   (let [initial-session (-> (mk-session 'clara.examples.truth-maintenance)
                             (insert (->Temperature -10 "MCI")

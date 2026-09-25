@@ -108,6 +108,7 @@
 
     (insta/transform shopping-transforms parse-tree)))
 
+(comment (run-examples))
 (defn run-examples
   "Run the example."
   []
